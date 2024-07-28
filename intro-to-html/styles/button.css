@@ -1,0 +1,120 @@
+body {
+    background-color: white;
+}
+.Subscribe-button {
+    background-color: rgb(228, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+}
+.Subscribe-button:hover {
+    opacity: 80%;
+}
+
+.Subscribe-button:active {
+    opacity: 0.65;
+}
+
+.join-button {
+    background-color: white;
+    border-color: rgb(35, 161, 228);
+    color: rgb(35, 161, 228);
+    border-style: solid;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 9.12px;
+    padding-bottom: 9.12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+    vertical-align: top;
+}
+
+.join-button:hover {
+    background-color: rgb(35, 161, 228);
+    color: white;
+}
+
+.join-button:active {
+    opacity: 85%;
+}
+
+.Tweet-button {
+    background-color: rgb(11, 163, 233);
+    border: none;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+    transition: box-shadow 0.15s;
+    vertical-align: top;
+}
+
+.Tweet-button:hover {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.178);
+}
+
+.Tweet-button:active {
+    opacity: 85%;
+}
+
+.Pagination {
+    padding-top: 6px; 
+    padding-bottom: 6px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border-width: 1.1px;
+    word-spacing: 3px;
+}
+
+.Strech {
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+    transition: padding-left 0.5s, padding-right 0.5s;
+    border: none;
+    padding: 7px;
+}
+
+.Strech:hover {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.Strech:active{
+    opacity: 80%;
+}
+
+.shad {
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding: 7px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.40);        
+}
+
+.shad:hover {
+    opacity: 85%;
+}
+
+.shad:active {
+    margin-left: 3px;
+    margin-top: 3px;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    
+}

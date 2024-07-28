@@ -1,0 +1,17 @@
+.rizz {
+    font-family: Roboto; 
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    line-height: 32px
+}
+
+p:hover {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+p:active {
+    color: white;
+}
